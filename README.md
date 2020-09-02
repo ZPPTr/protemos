@@ -7,5 +7,14 @@
     <br>
 </p>
 
+##start project
+`bash`
+> docker-compose up -d
+
+##apply migrations
+`bash`
+> docker-compose exec web php yii migrate
+
+
 ## Documentation
 - [Framework Guide](http://www.yiiframework.com/doc-2.0/guide-index.html)
